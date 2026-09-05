@@ -9,36 +9,42 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="">
-    <header class="flex flex-row justify-evenly">
-        <h1 class="">logo o wea</h1>
+<body class="mx-12 my-4">
+    <header class="sticky flex flex-row justify-between rounded-md p-6 shadow-md">
+        <h1 class="flex-auto">logo o wea</h1>
         <!-- NAV BAR -->
-        <nav class="flex flex-row justify-between">
-            <a class="" href="">Inicio</a>
-            <a href="">Informacion</a>
-            <a href="">Atractivos</a>
-            <a href="">Cronograma</a>
-            <a href="">Mapa</a>
+        <nav class="flex-auto flex flex-row justify-between">
+            <a href="#inicio">Inicio</a>
+            <a href="#info">Informacion</a>
+            <a href="#atractivos">Atractivos</a>
+            <a href="#cronograma">Cronograma</a>
+            <a href="#mapa">Mapa</a>
         </nav>
     </header>
 
-    <main>
-
+    <main id="inicio">
+        <h1>Fonda</h1>
     </main>
-
-    <section>
-
+    <!-- INFORMACION -->
+    <section id="info">
+        <h1>info</h1>
     </section>
 
-    <section>
+    <!-- ATRACTIVOS -->
+    <section id="atractivos">
+        <h1>atract</h1>
 
+    </section>
+    <!-- CRONOGRAMA -->
+    <section id="cronograma">
+        <h1>crono</h1>
     </section>
 
     <!-- MAPA -->
-    <section class="flex flex-col items-center">
-        <h1>Como llegar?</h1>
+    <section id="mapa" class="flex flex-col ">
+        <h1 class="text-3xl">Como llegar?</h1>
         <!-- use https://www.embedmymap.com/ -->
-        <div class="relative w-[90%] h-100 text-left">
+        <div class="relative w-[100%] h-100">
             <div class="w-[100%] h-100 overflow-hidden">
                 <iframe class="h-100" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                     src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Pje. Hugo Dominguez Tapia 2253&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
@@ -47,8 +53,8 @@
         </div>
     </section>
 
-    <footer>
-
+    <footer id="informacion">
+        <h1>final</h1>
     </footer>
 </body>
 
