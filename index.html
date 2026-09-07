@@ -24,6 +24,12 @@
             <a href="#mapa" class="hover:text-red-600 transition">Mapa</a>
         </nav>
     </header>
+    <!-- franja tricolor de la bandera -->
+    <div class="flex h-1.5">
+        <div class="flex-1 bg-blue-700"></div>
+        <div class="flex-1 bg-white"></div>
+        <div class="flex-1 bg-red-600"></div>
+    </div>
 
     <main id="inicio" class="relative isolate overflow-hidden scroll-mt-28 mt-6 mb-12 rounded-2xl shadow-2xl">
         <img src="img/3.jpg" fetchpriority="high" decoding="async"
@@ -107,7 +113,7 @@
     <!-- ATRACTIVOS -->
         <section id="atractivos" class="scroll-mt-28 mb-12">
         <h1>atract</h1>
-        
+
     </section>
 
     <!-- CRONOGRAMA -->
@@ -200,20 +206,71 @@
     </section>
 
     <!-- MAPA -->
-    <section id="mapa" class="flex flex-col scroll-mt-28 mb-12">
-        <h1 class="text-3xl">Como llegar?</h1>
-        <!-- use https://www.embedmymap.com/ -->
-        <div class="relative w-[100%] h-100">
-            <div class="w-[100%] h-100 overflow-hidden">
-                <iframe class="h-100" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Pje. Hugo Dominguez Tapia 2253&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+    <section id="mapa" class="scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
+        <div class="max-w-6xl mx-auto px-6">
+            <h1 class="font-display text-3xl md:text-4xl font-black text-slate-800 mb-6 tracking-tight">Como llegar?</h1>
+            <!-- use https://www.embedmymap.com/ -->
+            <div class="rounded-2xl overflow-hidden shadow-xl border-t-4 border-red-600">
+                <iframe class="w-full h-96 block" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=es&amp;q=La Pampilla, Coquimbo&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                 </iframe>
             </div>
         </div>
     </section>
 
-    <footer id="informacion">
-        <h1>final</h1>
+    <!-- FOOTER -->
+    <footer id="contacto" class="bg-blue-900 text-white rounded-2xl overflow-hidden shadow-md">
+        <!-- franja tricolor de la bandera -->
+        <div class="flex h-2">
+            <div class="flex-1 bg-blue-700"></div>
+            <div class="flex-1 bg-white"></div>
+            <div class="flex-1 bg-red-600"></div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 py-12">
+
+            <!-- PISO 1: marca + enlaces -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+                <!-- Columna marca (ocupa 2 de 3 en escritorio) -->
+                <div class="md:col-span-2">
+                    <p class="text-3xl font-bold">
+                        <span class="text-red-500">★</span> Donde el Dieguín
+                    </p>
+                    <p class="text-sm text-white/70 mb-6">Ramada y cocinería dieciochera</p>
+
+                    <p class="mb-4 leading-relaxed">
+                        Explanada de La Pampilla,<br>
+                        Coquimbo, Región de Coquimbo.
+                    </p>
+
+                    <p class="mb-6 leading-relaxed">
+                        Horario de atención:<br>
+                        18, 19 y 20 de septiembre: 12:00 - 02:00 Hrs.
+                    </p>
+
+                    <a href="tel:+56964723815" class="flex items-center gap-3 hover:text-amber-400 transition">
+                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <span>+56 9 6472 3815</span>
+                    </a>
+                </div>
+
+                <!-- Columna: el evento -->
+                <div>
+                    <h2 class="text-2xl font-semibold mb-5 pb-2 border-b-2 border-red-600 inline-block">El Evento</h2>
+                    <ul class="space-y-3 text-white/80">
+                        <li><a href="#info" class="hover:text-white transition">Información</a></li>
+                        <li><a href="#atractivos" class="hover:text-white transition">Atractivos</a></li>
+                        <li><a href="#cronograma" class="hover:text-white transition">Cronograma</a></li>
+                        <li><a href="#mapa" class="hover:text-white transition">Cómo llegar</a></li>
+                        <li><a href="mailto:contacto@dondeeldieguin.cl" class="hover:text-white transition">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
     </footer>
 </body>
 
