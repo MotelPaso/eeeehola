@@ -1,3 +1,8 @@
 html {
 	scroll-behavior: smooth;
 }
+
+/* Tipografia para titulos grandes (hero / logo) */
+.font-display {
+	font-family: "Outfit", ui-sans-serif, system-ui, sans-serif;
+}
