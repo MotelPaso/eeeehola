@@ -1,6 +1,6 @@
-###Landing Page Dieciochera
+### Landing Page Dieciochera
 
-####Integrantes
+#### Integrantes
 - Gian Guzman
 - Paulo Araya
 - Miguel Valenzuela
