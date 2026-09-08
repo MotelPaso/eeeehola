@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -8,15 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="mx-6 md:mx-12 my-4 bg-slate-50">
+<body class="mx-6 md:mx-12 my-4 bg-slate-50 font-[family-name:Outfit,ui-sans-serif,system-ui,sans-serif]">
     <header class="sticky top-0 z-50 bg-white flex flex-col md:flex-row justify-between items-center rounded-md p-4 md:p-6 shadow-md border-b-4 border-red-600">
-        <h1 class="font-display text-2xl font-black text-red-700 mb-3 md:mb-0">🇨🇱 Fonda Donde El Dieguin</h1>
+        <h1 class="text-xl md:text-2xl font-black text-red-700 mb-3 md:mb-0">🇨🇱 Fonda Donde El Dieguin</h1>
         <!-- NAV BAR -->
-        <nav class="flex flex-wrap justify-center gap-3 md:gap-6 font-semibold text-slate-700">
+        <nav aria-label="Navegación principal"
+            class="flex flex-wrap justify-center gap-x-4 gap-y-2 md:gap-6 text-sm md:text-base font-semibold text-slate-700">
             <a href="#inicio" class="hover:text-red-600 transition">Inicio</a>
             <a href="#info" class="hover:text-red-600 transition">Información</a>
             <a href="#atractivos" class="hover:text-red-600 transition">Atractivos</a>
@@ -24,14 +24,8 @@
             <a href="#mapa" class="hover:text-red-600 transition">Mapa</a>
         </nav>
     </header>
-    <!-- franja tricolor de la bandera -->
-    <div class="flex h-1.5">
-        <div class="flex-1 bg-blue-700"></div>
-        <div class="flex-1 bg-white"></div>
-        <div class="flex-1 bg-red-600"></div>
-    </div>
 
-    <main id="inicio" class="relative isolate overflow-hidden scroll-mt-28 mt-6 mb-12 rounded-2xl shadow-2xl">
+    <main id="inicio" class="relative isolate overflow-hidden scroll-mt-36 md:scroll-mt-28 mt-6 mb-12 rounded-2xl shadow-2xl">
         <img src="img/3.jpg" fetchpriority="high" decoding="async"
             alt="Ramada dieciochera decorada con guirnaldas de papel picado y gente celebrando"
             class="absolute inset-0 -z-20 w-full h-full object-cover object-center">
@@ -47,9 +41,9 @@
         <div class="relative flex flex-col items-center justify-center text-center text-white min-h-[70vh] px-6 py-16 md:px-12 md:py-24">
             <span class="inline-flex items-center gap-2 bg-white/95 text-red-800 px-5 py-1.5 rounded-full text-xs md:text-sm font-bold tracking-[0.2em] mb-6 shadow-lg ring-1 ring-white/50">
                 <span class="w-2 h-2 rounded-full bg-red-600"></span>
-                18 Y 19 DE SEPTIEMBRE
+                18, 19 Y 20 DE SEPTIEMBRE
             </span>
-            <h2 class="font-display text-5xl md:text-7xl font-black leading-[0.95] tracking-tight mb-5 drop-shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
+            <h2 class="text-5xl md:text-7xl font-black leading-[0.95] tracking-tight mb-5 drop-shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
                 Gran Fonda <br>
                 <span class="text-amber-300">Donde El Dieguin</span>
             </h2>
@@ -61,18 +55,18 @@
                 <a href="#cronograma" class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/40 text-white font-semibold py-3 px-8 rounded-xl text-lg hover:-translate-y-0.5 active:translate-y-0 transition">Ver cronograma</a>
             </div>
             <p class="mt-8 text-sm md:text-base text-slate-200/80 font-medium">
-                📍 Pje. Hugo Domínguez Tapia 2253, Coquimbo &nbsp;·&nbsp; 🕒 12:00 a 22:00 hrs
+                📍 Explanada de La Pampilla, Coquimbo &nbsp;·&nbsp; 🕒 12:00 a 02:00 hrs
             </p>
         </div>
     </main>
 
     <!-- INFORMACION DEL EVENTO -->
-    <section id="info" class="scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
+    <section id="info" class="scroll-mt-36 md:scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
 
             <div>
                 <p class="text-amber-600 font-bold mb-2 uppercase tracking-[0.15em] text-sm">Sobre el evento</p>
-                <h2 class="font-display text-3xl md:text-4xl font-black text-slate-800 mb-5 tracking-tight">
+                <h2 class="text-3xl md:text-4xl font-black text-slate-800 mb-5 tracking-tight">
                     Una fonda pensada para toda la familia
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-4">
@@ -90,15 +84,15 @@
                 <ul class="space-y-5">
                     <li class="flex items-start gap-4 border-b border-white/20 pb-4">
                         <span class="font-bold text-amber-400 w-24 shrink-0">Fecha</span>
-                        <span>18 y 19 de septiembre de 2026</span>
+                        <span>18, 19 y 20 de septiembre de 2026</span>
                     </li>
                     <li class="flex items-start gap-4 border-b border-white/20 pb-4">
                         <span class="font-bold text-amber-400 w-24 shrink-0">Horario</span>
-                        <span>12:00 a 22:00 horas</span>
+                        <span>12:00 a 02:00 horas</span>
                     </li>
                     <li class="flex items-start gap-4 border-b border-white/20 pb-4">
                         <span class="font-bold text-amber-400 w-24 shrink-0">Lugar</span>
-                        <span>Pje. Hugo Domínguez Tapia 2253, Coquimbo</span>
+                        <span>Explanada de La Pampilla, Coquimbo</span>
                     </li>
                     <li class="flex items-start gap-4">
                         <span class="font-bold text-amber-400 w-24 shrink-0">Entrada</span>
@@ -111,18 +105,18 @@
     </section>
 
     <!-- ATRACTIVOS -->
-        <section id="atractivos" class="scroll-mt-28 mb-12">
+        <section id="atractivos" class="scroll-mt-36 md:scroll-mt-28 mb-12">
         <h1>atract</h1>
 
     </section>
 
     <!-- CRONOGRAMA -->
-    <section id="cronograma" class="scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
+    <section id="cronograma" class="scroll-mt-36 md:scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
         <div class="max-w-5xl mx-auto px-6">
 
             <div class="text-center mb-12">
                 <p class="text-amber-600 font-bold mb-2 uppercase tracking-[0.15em] text-sm">No te lo pierdas</p>
-                <h2 class="font-display text-3xl md:text-4xl font-black text-slate-800 tracking-tight">Cronograma de actividades</h2>
+                <h2 class="text-3xl md:text-4xl font-black text-slate-800 tracking-tight">Cronograma de actividades</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -206,12 +200,13 @@
     </section>
 
     <!-- MAPA -->
-    <section id="mapa" class="scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
+    <section id="mapa" class="scroll-mt-36 md:scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
         <div class="max-w-6xl mx-auto px-6">
-            <h1 class="font-display text-3xl md:text-4xl font-black text-slate-800 mb-6 tracking-tight">Como llegar?</h1>
+            <h2 class="text-3xl md:text-4xl font-black text-slate-800 mb-6 tracking-tight">Como llegar?</h2>
             <!-- use https://www.embedmymap.com/ -->
             <div class="rounded-2xl overflow-hidden shadow-xl border-t-4 border-red-600">
-                <iframe class="w-full h-96 block" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                <iframe title="Mapa con la ubicación de la fonda" class="w-full h-96 block" frameborder="0"
+                    scrolling="no" marginheight="0" marginwidth="0"
                     src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=es&amp;q=La Pampilla, Coquimbo&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                 </iframe>
             </div>
