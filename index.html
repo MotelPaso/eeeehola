@@ -5,424 +5,512 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fonda Donde el Dieguín - La Pampilla, Coquimbo</title>
+    <meta name="description"
+        content="Gran Fonda Donde el Dieguín: 18, 19 y 20 de septiembre en la Explanada de La Pampilla, Coquimbo. Empanadas, terremotos, cueca y música en vivo. Entrada liberada.">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇨🇱</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Outfit:wght@400;600;800;900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="mx-6 md:mx-12 my-4 bg-slate-50 font-[family-name:Outfit,ui-sans-serif,system-ui,sans-serif]">
-    <header class="sticky top-0 z-50 bg-white flex flex-col md:flex-row justify-between items-center rounded-md p-4 md:p-6 shadow-md border-b-4 border-red-600">
-        <h1 class="text-xl md:text-2xl font-black text-red-700 mb-3 md:mb-0">🇨🇱 Fonda Donde el Dieguín</h1>
-        <!-- NAV BAR -->
-        <nav aria-label="Navegación principal"
-            class="flex flex-wrap justify-center gap-x-4 gap-y-2 md:gap-6 text-sm md:text-base font-semibold text-slate-700">
-            <a href="#inicio" class="hover:text-red-600 transition">Inicio</a>
-            <a href="#info" class="hover:text-red-600 transition">Información</a>
-            <a href="#atractivos" class="hover:text-red-600 transition">Atractivos</a>
-            <a href="#cronograma" class="hover:text-red-600 transition">Cronograma</a>
-            <a href="#mapa" class="hover:text-red-600 transition">Mapa</a>
-        </nav>
-    </header>
+<body
+    class="bg-[#faf2e0] font-[family-name:Outfit,ui-sans-serif,system-ui,sans-serif] text-slate-800 antialiased selection:bg-red-600 selection:text-white">
 
-    <main id="inicio" class="relative isolate overflow-hidden scroll-mt-36 md:scroll-mt-28 mt-6 mb-12 rounded-2xl shadow-2xl">
-        <img src="img/3.jpg" fetchpriority="high" decoding="async"
-            alt="Ramada dieciochera decorada con guirnaldas de papel picado y gente celebrando"
-            class="absolute inset-0 -z-20 w-full h-full object-cover object-center">
-        <div class="absolute inset-0 -z-10 bg-gradient-to-b from-slate-950/75 via-slate-900/45 to-slate-950/85"></div>
-        <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(2,6,23,0.6)_100%)]"></div>
+    <div aria-hidden="true"
+        class="fixed inset-0 -z-50 bg-[radial-gradient(circle_at_1px_1px,rgba(220,38,38,0.055)_1.5px,transparent_2px),radial-gradient(circle_at_1px_1px,rgba(30,64,175,0.05)_1.5px,transparent_2px),radial-gradient(55rem_38rem_at_112%_-4%,rgba(220,38,38,0.09),transparent_60%),radial-gradient(50rem_36rem_at_-12%_30%,rgba(30,64,175,0.08),transparent_60%),radial-gradient(65rem_45rem_at_50%_112%,rgba(217,119,6,0.11),transparent_65%)] [background-size:30px_30px,30px_30px,auto,auto,auto] [background-position:0_0,15px_15px,0_0,0_0,0_0]">
+    </div>
 
-        <div class="absolute inset-x-0 top-0 flex h-1.5">
+    <header class="sticky top-0 z-50 bg-[#faf2e0]/90 backdrop-blur-md border-b border-red-900/10">
+        <div class="flex h-1">
             <span class="flex-1 bg-blue-800"></span>
             <span class="flex-1 bg-white"></span>
             <span class="flex-1 bg-red-600"></span>
         </div>
-
-        <div class="relative flex flex-col items-center justify-center text-center text-white min-h-[70vh] px-6 py-16 md:px-12 md:py-24">
-            <span class="inline-flex items-center gap-2 bg-white/95 text-red-800 px-5 py-1.5 rounded-full text-xs md:text-sm font-bold tracking-[0.2em] mb-6 shadow-lg ring-1 ring-white/50">
-                <span class="w-2 h-2 rounded-full bg-red-600"></span>
-                18, 19 Y 20 DE SEPTIEMBRE
-            </span>
-            <h2 class="text-5xl md:text-7xl font-black leading-[0.95] tracking-tight mb-5 drop-shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
-                Gran Fonda <br>
-                <span class="text-amber-300">Donde el Dieguín</span>
-            </h2>
-            <p class="text-lg md:text-xl text-slate-100/90 mb-8 max-w-xl leading-relaxed drop-shadow-md">
-                Ven a disfrutar de las mejores empanadas, cuecas y terremotos en el mejor ambiente dieciochero.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-3">
-                <a href="#info" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-xl shadow-xl text-lg ring-1 ring-white/20 hover:-translate-y-0.5 active:translate-y-0 transition">¡Zapatear aquí!</a>
-                <a href="#cronograma" class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/40 text-white font-semibold py-3 px-8 rounded-xl text-lg hover:-translate-y-0.5 active:translate-y-0 transition">Ver cronograma</a>
-            </div>
-            <p class="mt-8 text-sm md:text-base text-slate-200/80 font-medium">
-                📍 Explanada de La Pampilla, Coquimbo &nbsp;·&nbsp; 🕒 12:00 a 02:00 hrs
-            </p>
+        <div aria-hidden="true"
+            class="pointer-events-none absolute left-0 right-0 top-full h-3.5 bg-[repeating-linear-gradient(90deg,#dc2626_0_28px,#f59e0b_28px_56px,#1e40af_56px_84px)] [-webkit-mask-image:conic-gradient(from_315deg_at_50%_100%,#000_0_90deg,transparent_90deg)] [mask-image:conic-gradient(from_315deg_at_50%_100%,#000_0_90deg,transparent_90deg)] [-webkit-mask-size:28px_100%] [mask-size:28px_100%] [-webkit-mask-repeat:repeat-x] [mask-repeat:repeat-x]">
         </div>
+        <div
+            class="max-w-6xl mx-auto px-4 md:px-6 py-3 md:py-0 md:h-16 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+            <a href="#inicio"
+                class="font-[family-name:'Alfa_Slab_One',serif] text-base md:text-lg tracking-tight text-red-700">
+                🇨🇱 Fonda Donde el Dieguín
+            </a>
+            <nav aria-label="Navegación principal"
+                class="flex flex-wrap justify-center gap-x-5 gap-y-1 text-sm font-semibold text-slate-700">
+                <a href="#inicio" class="py-1 transition-colors hover:text-red-600">Inicio</a>
+                <a href="#info" class="py-1 transition-colors hover:text-red-600">Información</a>
+                <a href="#atractivos" class="py-1 transition-colors hover:text-red-600">Atractivos</a>
+                <a href="#cronograma" class="py-1 transition-colors hover:text-red-600">Cronograma</a>
+                <a href="#mapa" class="py-1 transition-colors hover:text-red-600">Mapa</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="relative isolate overflow-hidden scroll-mt-32 md:scroll-mt-24">
+            <img src="img/3.jpg" fetchpriority="high" decoding="async"
+                alt="Ramada dieciochera decorada con guirnaldas de papel picado y gente celebrando"
+                class="absolute inset-0 -z-30 h-full w-full object-cover">
+            <div class="absolute inset-0 -z-20 bg-slate-950/50"></div>
+            <div class="absolute inset-0 -z-20 bg-gradient-to-r from-slate-950/70 via-slate-950/30 to-transparent">
+            </div>
+            <div class="absolute inset-x-0 bottom-0 -z-10 h-44 bg-gradient-to-t from-[#faf2e0] to-transparent"></div>
+
+            <div class="absolute right-[5%] top-1/2 hidden -translate-y-1/2 rotate-6 transition-transform duration-500 hover:rotate-2 lg:block">
+                <div class="aspect-[6/5] w-64 overflow-hidden rounded-2xl border-4 border-white shadow-2xl shadow-black/40 xl:w-80">
+                    <img src="img/volantin.webp" loading="lazy" decoding="async"
+                        alt="Volantín con los colores de la bandera chilena volando en el cielo"
+                        class="h-full w-full object-cover object-[50%_25%]">
+                </div>
+            </div>
+
+            <div class="max-w-6xl mx-auto flex min-h-[88dvh] items-center px-4 md:px-6 py-24">
+                <div class="mx-auto max-w-2xl text-center md:mx-0 md:text-left">
+                    <span
+                        class="inline-block rounded-full bg-white/95 px-5 py-1.5 text-xs md:text-sm font-bold tracking-[0.15em] text-red-700 shadow-lg">
+                        18, 19 Y 20 DE SEPTIEMBRE · LA PAMPILLA
+                    </span>
+                    <h1
+                        class="mt-6 font-[family-name:'Alfa_Slab_One',serif] text-4xl sm:text-5xl md:text-6xl leading-[1.05] text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.55)]">
+                        Gran Fonda<br>
+                        <span class="text-amber-300">Donde el Dieguín</span>
+                    </h1>
+                    <p class="mt-6 max-w-xl text-lg md:text-xl leading-relaxed text-slate-100/90 drop-shadow-md">
+                        Tres días de empanadas, terremotos y cueca para celebrar el Dieciocho
+                        en familia, frente al mar de Coquimbo.
+                    </p>
+                    <div class="mt-9 flex flex-col items-center gap-3 sm:flex-row md:items-start">
+                        <a href="#cronograma"
+                            class="rounded-full bg-red-600 px-8 py-3.5 text-lg font-bold text-white shadow-xl shadow-red-950/30 ring-1 ring-white/20 transition hover:-translate-y-0.5 hover:bg-red-700 active:translate-y-0">
+                            Ver el programa
+                        </a>
+                        <a href="#mapa"
+                            class="rounded-full border border-white/50 bg-white/10 px-8 py-3.5 text-lg font-semibold text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white/20 active:translate-y-0">
+                            Cómo llegar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="scroll-mt-32 md:scroll-mt-24 py-16 md:py-24">
+            <div class="max-w-6xl mx-auto grid items-center gap-12 px-4 md:grid-cols-2 md:gap-16 md:px-6">
+
+                <div>
+                    <div class="mb-5 flex h-1.5 w-14 overflow-hidden rounded-full">
+                        <span class="flex-1 bg-blue-800"></span>
+                        <span class="flex-1 bg-amber-400"></span>
+                        <span class="flex-1 bg-red-600"></span>
+                    </div>
+                    <h2 class="font-[family-name:'Alfa_Slab_One',serif] text-3xl md:text-4xl text-slate-900">
+                        Una fonda pensada para toda la familia
+                    </h2>
+                    <p class="mt-5 leading-relaxed text-slate-600">
+                        Nuestra fonda reúne cada dieciocho a la comunidad para compartir las tradiciones
+                        más queridas de nuestro país: la cueca, el asado al palo, los juegos típicos
+                        y la música en vivo, todo bajo un mismo techo de ramas.
+                    </p>
+                    <p class="mt-4 leading-relaxed text-slate-600">
+                        Contamos con espacios techados, zona de juegos para niños, food trucks con
+                        gastronomía criolla y estacionamiento gratuito para nuestros visitantes.
+                    </p>
+                </div>
+
+                <div class="rounded-2xl bg-blue-950 p-8 text-white shadow-xl shadow-blue-950/25">
+                    <ul class="divide-y divide-white/10">
+                        <li class="flex items-start gap-4 py-4 first:pt-0 last:pb-0">
+                            <span class="w-24 shrink-0 font-bold text-amber-300">Fecha</span>
+                            <span class="text-blue-50/90">Viernes 18, sábado 19 y domingo 20 de septiembre de 2026</span>
+                        </li>
+                        <li class="flex items-start gap-4 py-4 first:pt-0 last:pb-0">
+                            <span class="w-24 shrink-0 font-bold text-amber-300">Horario</span>
+                            <span class="text-blue-50/90">12:00 a 02:00 horas, los tres días</span>
+                        </li>
+                        <li class="flex items-start gap-4 py-4 first:pt-0 last:pb-0">
+                            <span class="w-24 shrink-0 font-bold text-amber-300">Lugar</span>
+                            <span class="text-blue-50/90">Explanada de La Pampilla, Coquimbo</span>
+                        </li>
+                        <li class="flex items-start gap-4 py-4 first:pt-0 last:pb-0">
+                            <span class="w-24 shrink-0 font-bold text-amber-300">Entrada</span>
+                            <span class="text-blue-50/90">Liberada, con opción de compras al interior</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="atractivos" class="scroll-mt-32 md:scroll-mt-24 pt-6">
+            <div class="max-w-6xl mx-auto px-4 md:px-6">
+
+                <div class="mx-auto mb-12 max-w-2xl text-center">
+                    <div class="mx-auto mb-5 flex h-1.5 w-14 overflow-hidden rounded-full">
+                        <span class="flex-1 bg-blue-800"></span>
+                        <span class="flex-1 bg-amber-400"></span>
+                        <span class="flex-1 bg-red-600"></span>
+                    </div>
+                    <h2 class="font-[family-name:'Alfa_Slab_One',serif] text-3xl md:text-4xl text-slate-900">
+                        Atractivos de la fonda
+                    </h2>
+                    <p class="mt-4 leading-relaxed text-slate-600">
+                        Cocina criolla de verdad y un escenario que no descansa.
+                    </p>
+                </div>
+
+                <h3 class="mb-6 text-2xl font-black tracking-tight text-slate-900">La comida</h3>
+                <div class="grid gap-5 md:grid-cols-2">
+
+                    <article
+                        class="flex items-start gap-5 rounded-2xl border border-amber-900/10 bg-white/80 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-amber-900/10">
+                        <img src="img/empanada.png" width="512" height="512" loading="lazy" alt="Empanadas de pino"
+                            class="h-16 w-16 shrink-0 object-contain">
+                        <div>
+                            <h4 class="text-lg font-black text-slate-900">Empanadas de pino</h4>
+                            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">
+                                Horneadas cada media hora, con pino jugoso, aceituna y huevo.
+                                También hay de queso para los más chicos.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="flex items-start gap-5 rounded-2xl border border-amber-900/10 bg-white/80 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-amber-900/10">
+                        <img src="img/parrilla-de-barbacoa.png" width="512" height="512" loading="lazy"
+                            alt="Anticuchos a la parrilla" class="h-16 w-16 shrink-0 object-contain">
+                        <div>
+                            <h4 class="text-lg font-black text-slate-900">Asado y anticuchos</h4>
+                            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">
+                                Anticuchos a las brasas, choripanes y asado al palo desde el
+                                mediodía hasta que se acabe el carbón.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="flex items-start gap-5 rounded-2xl border border-amber-900/10 bg-white/80 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-amber-900/10">
+                        <img src="img/terremoto.png" width="512" height="512" loading="lazy" alt="Vaso de terremoto"
+                            class="h-16 w-16 shrink-0 object-contain">
+                        <div>
+                            <h4 class="text-lg font-black text-slate-900">Terremotos y chicha</h4>
+                            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">
+                                El terremoto clásico con harto helado de piña y chicha en cacho.
+                                Venta solo a mayores de 18 años.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="flex items-start gap-5 rounded-2xl border border-amber-900/10 bg-white/80 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-amber-900/10">
+                        <img src="img/mote-con-huesillos.png" width="512" height="512" loading="lazy"
+                            alt="Mote con huesillo" class="h-16 w-16 shrink-0 object-contain">
+                        <div>
+                            <h4 class="text-lg font-black text-slate-900">Mote con huesillo</h4>
+                            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">
+                                Bien helado para aguantar el sol de la explanada. Sin alcohol,
+                                apto para toda la familia.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="relative mt-20 overflow-hidden bg-blue-950 text-white">
+                <div class="flex h-1.5">
+                    <span class="flex-1 bg-blue-700"></span>
+                    <span class="flex-1 bg-white"></span>
+                    <span class="flex-1 bg-red-600"></span>
+                </div>
+                <span aria-hidden="true"
+                    class="pointer-events-none absolute -right-12 -top-10 select-none text-[18rem] leading-none text-white/[0.05]">★</span>
+                <div class="relative max-w-6xl mx-auto px-4 py-16 md:px-6 md:py-20">
+                    <h3 class="font-[family-name:'Alfa_Slab_One',serif] text-2xl md:text-3xl">Artistas en vivo</h3>
+                    <p class="mt-3 max-w-2xl leading-relaxed text-blue-100/80">
+                        Tres noches de música en el escenario principal, con entrada liberada.
+                    </p>
+
+                    <div class="mt-10 divide-y divide-white/10">
+
+                        <div class="grid gap-3 py-7 md:grid-cols-[11rem_1fr_1.8fr] md:items-center md:gap-8">
+                            <span
+                                class="justify-self-start rounded-full bg-white/10 px-4 py-1.5 text-sm font-semibold text-amber-300">
+                                Viernes 18 · 20:00
+                            </span>
+                            <h4 class="text-2xl md:text-3xl font-black">Los Jaivas</h4>
+                            <p class="text-sm md:text-base leading-relaxed text-blue-100/70">
+                                Rock andino y fusión latinoamericana. Los clásicos de siempre
+                                para abrir la primera noche de la fonda.
+                            </p>
+                        </div>
+
+                        <div class="grid gap-3 py-7 md:grid-cols-[11rem_1fr_1.8fr] md:items-center md:gap-8">
+                            <span
+                                class="justify-self-start rounded-full bg-white/10 px-4 py-1.5 text-sm font-semibold text-amber-300">
+                                Sábado 19 · 15:00
+                            </span>
+                            <h4 class="text-2xl md:text-3xl font-black">Vikings 5</h4>
+                            <p class="text-sm md:text-base leading-relaxed text-blue-100/70">
+                                Cumbia chilena de la vieja escuela para bailar de tarde, justo
+                                después del asado.
+                            </p>
+                        </div>
+
+                        <div class="grid gap-3 py-7 md:grid-cols-[11rem_1fr_1.8fr] md:items-center md:gap-8">
+                            <span
+                                class="justify-self-start rounded-full bg-white/10 px-4 py-1.5 text-sm font-semibold text-amber-300">
+                                Sábado 19 · 20:30
+                            </span>
+                            <h4 class="text-2xl md:text-3xl font-black">Chico Trujillo</h4>
+                            <p class="text-sm md:text-base leading-relaxed text-blue-100/70">
+                                Cumbia chilena para cerrar la fonda con la pista llena. El plato
+                                fuerte de la segunda noche.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cronograma" class="scroll-mt-32 md:scroll-mt-24 py-16 md:py-24">
+            <div class="max-w-6xl mx-auto px-4 md:px-6">
+
+                <div class="mx-auto mb-12 max-w-2xl text-center">
+                    <div class="mx-auto mb-5 flex h-1.5 w-14 overflow-hidden rounded-full">
+                        <span class="flex-1 bg-blue-800"></span>
+                        <span class="flex-1 bg-amber-400"></span>
+                        <span class="flex-1 bg-red-600"></span>
+                    </div>
+                    <h2 class="font-[family-name:'Alfa_Slab_One',serif] text-3xl md:text-4xl text-slate-900">
+                        Cronograma de actividades
+                    </h2>
+                    <p class="mt-4 leading-relaxed text-slate-600">
+                        Cada jornada parte al mediodía y termina con ramada hasta las 02:00.
+                    </p>
+                </div>
+
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+                    <div class="overflow-hidden rounded-2xl border border-amber-900/10 bg-white/90 shadow-sm">
+                        <table class="w-full text-left text-sm">
+                            <caption class="bg-red-700 px-5 py-3.5 text-left font-bold text-white">
+                                Viernes <span class="text-amber-300">18</span> de septiembre
+                            </caption>
+                            <thead>
+                                <tr class="border-b border-amber-900/10 text-xs uppercase tracking-wide text-slate-400">
+                                    <th class="px-5 py-2.5 font-semibold">Hora</th>
+                                    <th class="px-5 py-2.5 font-semibold">Actividad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">12:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Apertura de puertas</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">14:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Almuerzo criollo y asado al palo</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">17:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Concurso de cueca infantil</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">20:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Los Jaivas en el escenario principal</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">23:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Ramada y baile</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">02:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Cierre de la jornada</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="overflow-hidden rounded-2xl border border-amber-900/10 bg-white/90 shadow-sm">
+                        <table class="w-full text-left text-sm">
+                            <caption class="bg-red-700 px-5 py-3.5 text-left font-bold text-white">
+                                Sábado <span class="text-amber-300">19</span> de septiembre
+                            </caption>
+                            <thead>
+                                <tr class="border-b border-amber-900/10 text-xs uppercase tracking-wide text-slate-400">
+                                    <th class="px-5 py-2.5 font-semibold">Hora</th>
+                                    <th class="px-5 py-2.5 font-semibold">Actividad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">12:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Apertura y desfile de huasos</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">13:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Asado y ramada</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">15:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Vikings 5 en el escenario principal</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">17:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Torneo de rayuela</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">20:30</td>
+                                    <td class="px-5 py-3 text-slate-600">Chico Trujillo en el escenario principal</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">02:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Cierre de la jornada</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="overflow-hidden rounded-2xl border border-amber-900/10 bg-white/90 shadow-sm">
+                        <table class="w-full text-left text-sm">
+                            <caption class="bg-red-700 px-5 py-3.5 text-left font-bold text-white">
+                                Domingo <span class="text-amber-300">20</span> de septiembre
+                            </caption>
+                            <thead>
+                                <tr class="border-b border-amber-900/10 text-xs uppercase tracking-wide text-slate-400">
+                                    <th class="px-5 py-2.5 font-semibold">Hora</th>
+                                    <th class="px-5 py-2.5 font-semibold">Actividad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">12:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Apertura de puertas</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">14:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Asado familiar</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">16:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Gran final del concurso de cueca</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">19:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Premiación y show folclórico</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">23:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Última ramada de la temporada</td>
+                                </tr>
+                                <tr class="even:bg-amber-50/60">
+                                    <td class="w-16 px-5 py-3 font-bold text-red-700">02:00</td>
+                                    <td class="px-5 py-3 text-slate-600">Cierre de la fonda</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="mapa" class="scroll-mt-32 md:scroll-mt-24 pb-20 md:pb-28">
+            <div class="max-w-6xl mx-auto grid items-center gap-10 px-4 md:px-6 lg:grid-cols-[1fr_1.5fr]">
+
+                <div>
+                    <div class="mb-5 flex h-1.5 w-14 overflow-hidden rounded-full">
+                        <span class="flex-1 bg-blue-800"></span>
+                        <span class="flex-1 bg-amber-400"></span>
+                        <span class="flex-1 bg-red-600"></span>
+                    </div>
+                    <h2 class="font-[family-name:'Alfa_Slab_One',serif] text-3xl md:text-4xl text-slate-900">¿Cómo llegar?</h2>
+                    <p class="mt-4 leading-relaxed text-slate-600">
+                        Estamos en plena Explanada de La Pampilla, a pasos del acceso principal.
+                    </p>
+                    <ul class="mt-6 space-y-3 text-slate-700">
+                        <li class="flex items-center gap-3">
+                            <span aria-hidden="true">📍</span>
+                            <span>Explanada de La Pampilla, Coquimbo</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span aria-hidden="true">🅿️</span>
+                            <span>Estacionamiento gratuito para visitantes</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span aria-hidden="true">🎟️</span>
+                            <span>Entrada liberada los tres días</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="overflow-hidden rounded-2xl border-4 border-white shadow-xl shadow-amber-900/15">
+                    <iframe title="Mapa con la ubicación de la fonda" loading="lazy" class="block h-96 w-full"
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=es&amp;q=La Pampilla, Coquimbo&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
     </main>
 
-    <!-- INFORMACION DEL EVENTO -->
-    <section id="info" class="scroll-mt-36 md:scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
-
-            <div>
-                <p class="text-amber-600 font-bold mb-2 uppercase tracking-[0.15em] text-sm">Sobre el evento</p>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-800 mb-5 tracking-tight">
-                    Una fonda pensada para toda la familia
-                </h2>
-                <p class="text-slate-600 leading-relaxed mb-4">
-                    Nuestra fonda reúne cada dieciocho a la comunidad para compartir las tradiciones
-                    más queridas de nuestro país: la cueca, el asado al palo, los juegos típicos
-                    y la música en vivo, todo bajo un mismo techo de ramas.
-                </p>
-                <p class="text-slate-600 leading-relaxed">
-                    Contamos con espacios techados, zona de juegos para niños, food trucks con
-                    gastronomía criolla y estacionamiento gratuito para nuestros visitantes.
-                </p>
-            </div>
-
-            <div class="bg-slate-800 text-white rounded-2xl p-8 shadow-xl border-t-4 border-red-600">
-                <ul class="space-y-5">
-                    <li class="flex items-start gap-4 border-b border-white/20 pb-4">
-                        <span class="font-bold text-amber-400 w-24 shrink-0">Fecha</span>
-                        <span>Viernes 18, sábado 19 y domingo 20 de septiembre de 2026</span>
-                    </li>
-                    <li class="flex items-start gap-4 border-b border-white/20 pb-4">
-                        <span class="font-bold text-amber-400 w-24 shrink-0">Horario</span>
-                        <span>12:00 a 02:00 horas, los tres días</span>
-                    </li>
-                    <li class="flex items-start gap-4 border-b border-white/20 pb-4">
-                        <span class="font-bold text-amber-400 w-24 shrink-0">Lugar</span>
-                        <span>Explanada de La Pampilla, Coquimbo</span>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <span class="font-bold text-amber-400 w-24 shrink-0">Entrada</span>
-                        <span>Liberada, con opción de compras al interior</span>
-                    </li>
-                </ul>
-            </div>
-
+    <footer id="contacto" class="bg-blue-950 text-white">
+        <div class="flex h-1.5">
+            <span class="flex-1 bg-blue-700"></span>
+            <span class="flex-1 bg-white"></span>
+            <span class="flex-1 bg-red-600"></span>
         </div>
-    </section>
-
-    <!-- ATRACTIVOS -->
-    <section id="atractivos" class="scroll-mt-36 md:scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
-        <div class="max-w-6xl mx-auto px-6">
-
-            <div class="text-center mb-12">
-                <p class="text-amber-600 font-bold mb-2 uppercase tracking-[0.15em] text-sm">Lo que te espera</p>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-800 tracking-tight">
-                    Atractivos de la fonda
-                </h2>
-            </div>
-
-            <!-- COMIDA -->
-            <h3 class="text-2xl md:text-3xl font-black text-slate-800 mb-8 tracking-tight">
-                La comida
-            </h3>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-
-                <article class="bg-slate-50 rounded-2xl p-6 text-center shadow-md border-t-4 border-red-600 hover:shadow-xl transition">
-                    <img src="img/empanada.png" width="512" height="512" loading="lazy"
-                        alt="Empanadas de pino" class="w-20 h-20 object-contain mx-auto mb-4">
-                    <h4 class="text-xl font-black text-slate-800 mb-2">Empanadas de pino</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Horneadas cada media hora, con pino jugoso, aceituna y huevo.
-                        También hay de queso para los más chicos.
-                    </p>
-                </article>
-
-                <article class="bg-slate-50 rounded-2xl p-6 text-center shadow-md border-t-4 border-red-600 hover:shadow-xl transition">
-                    <img src="img/parrilla-de-barbacoa.png" width="512" height="512" loading="lazy"
-                        alt="Anticuchos a la parrilla" class="w-20 h-20 object-contain mx-auto mb-4">
-                    <h4 class="text-xl font-black text-slate-800 mb-2">Asado y anticuchos</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Anticuchos a las brasas, choripanes y asado al palo desde el
-                        mediodía hasta que se acabe el carbón.
-                    </p>
-                </article>
-
-                <article class="bg-slate-50 rounded-2xl p-6 text-center shadow-md border-t-4 border-red-600 hover:shadow-xl transition">
-                    <img src="img/terremoto.png" width="512" height="512" loading="lazy"
-                        alt="Vaso de terremoto" class="w-20 h-20 object-contain mx-auto mb-4">
-                    <h4 class="text-xl font-black text-slate-800 mb-2">Terremotos y chicha</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        El terremoto clásico con harto helado de piña y chicha en cacho.
-                        Venta solo a mayores de 18 años.
-                    </p>
-                </article>
-
-                <article class="bg-slate-50 rounded-2xl p-6 text-center shadow-md border-t-4 border-red-600 hover:shadow-xl transition">
-                    <img src="img/mote-con-huesillos.png" width="512" height="512" loading="lazy"
-                        alt="Mote con huesillo" class="w-20 h-20 object-contain mx-auto mb-4">
-                    <h4 class="text-xl font-black text-slate-800 mb-2">Mote con huesillo</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Bien helado para aguantar el sol de la explanada. Sin alcohol,
-                        apto para toda la familia.
-                    </p>
-                </article>
-
-            </div>
-
-            <!-- ARTISTAS -->
-            <h3 class="text-2xl md:text-3xl font-black text-slate-800 mb-2 tracking-tight">
-                Artistas en vivo
-            </h3>
-            <p class="text-slate-600 leading-relaxed mb-8 max-w-2xl">
-                Tres noches de música en el escenario principal, con entrada incluida
-                en el valor de la fonda.
-            </p>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-                <article class="bg-slate-800 text-white rounded-2xl p-8 shadow-xl border-t-4 border-amber-400 hover:shadow-2xl hover:-translate-y-1 transition">
-                    <svg class="w-10 h-10 text-amber-400 mb-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M12 3v10.55A4 4 0 1014 17V7h4V3h-6z" />
-                    </svg>
-                    <p class="text-amber-400 text-xs font-bold uppercase tracking-[0.15em] mb-2">
-                        Viernes 18 · 20:00
-                    </p>
-                    <h4 class="text-2xl font-black mb-3">Los Jaivas</h4>
-                    <p class="text-slate-300 text-sm leading-relaxed">
-                        Rock andino y fusión latinoamericana. Los clásicos de siempre
-                        para abrir la primera noche de la fonda.
-                    </p>
-                </article>
-
-                <article class="bg-slate-800 text-white rounded-2xl p-8 shadow-xl border-t-4 border-amber-400 hover:shadow-2xl hover:-translate-y-1 transition">
-                    <svg class="w-10 h-10 text-amber-400 mb-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M12 3v10.55A4 4 0 1014 17V7h4V3h-6z" />
-                    </svg>
-                    <p class="text-amber-400 text-xs font-bold uppercase tracking-[0.15em] mb-2">
-                        Sábado 19 · 15:00
-                    </p>
-                    <h4 class="text-2xl font-black mb-3">Vikings 5</h4>
-                    <p class="text-slate-300 text-sm leading-relaxed">
-                        Cumbia chilena de la vieja escuela para bailar de tarde, justo
-                        después del asado.
-                    </p>
-                </article>
-
-                <article class="bg-slate-800 text-white rounded-2xl p-8 shadow-xl border-t-4 border-amber-400 hover:shadow-2xl hover:-translate-y-1 transition">
-                    <svg class="w-10 h-10 text-amber-400 mb-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M12 3v10.55A4 4 0 1014 17V7h4V3h-6z" />
-                    </svg>
-                    <p class="text-amber-400 text-xs font-bold uppercase tracking-[0.15em] mb-2">
-                        Sábado 19 · 20:30
-                    </p>
-                    <h4 class="text-2xl font-black mb-3">Chico Trujillo</h4>
-                    <p class="text-slate-300 text-sm leading-relaxed">
-                        Cumbia chilena para cerrar la fonda con la pista llena. El plato
-                        fuerte de la segunda noche.
-                    </p>
-                </article>
-
-            </div>
-
+        <div aria-hidden="true"
+            class="h-3.5 bg-[repeating-linear-gradient(90deg,#dc2626_0_28px,#fafaf9_28px_56px,#1e40af_56px_84px)] [-webkit-mask-image:conic-gradient(from_315deg_at_50%_100%,#000_0_90deg,transparent_90deg)] [mask-image:conic-gradient(from_315deg_at_50%_100%,#000_0_90deg,transparent_90deg)] [-webkit-mask-size:28px_100%] [mask-size:28px_100%] [-webkit-mask-repeat:repeat-x] [mask-repeat:repeat-x]">
         </div>
-    </section>
+        <div class="max-w-6xl mx-auto px-4 py-14 md:px-6">
 
-    <!-- CRONOGRAMA -->
-    <section id="cronograma" class="scroll-mt-36 md:scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
-        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid gap-10 md:grid-cols-3">
 
-            <div class="text-center mb-12">
-                <p class="text-amber-600 font-bold mb-2 uppercase tracking-[0.15em] text-sm">No te lo pierdas</p>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-800 tracking-tight">Cronograma de actividades</h2>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- Día 1 -->
-                <div class="overflow-x-auto rounded-2xl shadow-xl border-t-4 border-red-600">
-                    <table class="w-full text-left border-collapse">
-                        <caption class="font-bold text-white bg-red-600 py-3 px-4 text-left">
-                            Viernes 18 de septiembre
-                        </caption>
-                        <thead>
-                            <tr class="bg-slate-800 text-white">
-                                <th class="py-3 px-4 font-semibold">Hora</th>
-                                <th class="py-3 px-4 font-semibold">Actividad</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">12:00</td>
-                                <td class="py-3 px-4">Apertura de puertas</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">14:00</td>
-                                <td class="py-3 px-4">Almuerzo criollo y asado al palo</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">17:00</td>
-                                <td class="py-3 px-4">Concurso de cueca infantil</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">20:00</td>
-                                <td class="py-3 px-4">Los Jaivas en el escenario principal</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">23:00</td>
-                                <td class="py-3 px-4">Ramada y baile</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">02:00</td>
-                                <td class="py-3 px-4">Cierre de la jornada</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Día 2 -->
-                <div class="overflow-x-auto rounded-2xl shadow-xl border-t-4 border-red-600">
-                    <table class="w-full text-left border-collapse">
-                        <caption class="font-bold text-white bg-red-600 py-3 px-4 text-left">
-                            Sábado 19 de septiembre
-                        </caption>
-                        <thead>
-                            <tr class="bg-slate-800 text-white">
-                                <th class="py-3 px-4 font-semibold">Hora</th>
-                                <th class="py-3 px-4 font-semibold">Actividad</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">12:00</td>
-                                <td class="py-3 px-4">Apertura y desfile de huasos</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">13:00</td>
-                                <td class="py-3 px-4">Asado y ramada</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">15:00</td>
-                                <td class="py-3 px-4">Vikings 5 en el escenario principal</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">17:00</td>
-                                <td class="py-3 px-4">Torneo de rayuela</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">20:30</td>
-                                <td class="py-3 px-4">Chico Trujillo en el escenario principal</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">02:00</td>
-                                <td class="py-3 px-4">Cierre de la jornada</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Día 3 -->
-                <div class="overflow-x-auto rounded-2xl shadow-xl border-t-4 border-red-600">
-                    <table class="w-full text-left border-collapse">
-                        <caption class="font-bold text-white bg-red-600 py-3 px-4 text-left">
-                            Domingo 20 de septiembre
-                        </caption>
-                        <thead>
-                            <tr class="bg-slate-800 text-white">
-                                <th class="py-3 px-4 font-semibold">Hora</th>
-                                <th class="py-3 px-4 font-semibold">Actividad</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">12:00</td>
-                                <td class="py-3 px-4">Apertura de puertas</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">14:00</td>
-                                <td class="py-3 px-4">Asado familiar</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">16:00</td>
-                                <td class="py-3 px-4">Gran final del concurso de cueca</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">19:00</td>
-                                <td class="py-3 px-4">Premiación y show folclórico</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">23:00</td>
-                                <td class="py-3 px-4">Última ramada de la temporada</td>
-                            </tr>
-                            <tr class="odd:bg-white even:bg-slate-100">
-                                <td class="py-3 px-4">02:00</td>
-                                <td class="py-3 px-4">Cierre de la fonda</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- MAPA -->
-    <section id="mapa" class="scroll-mt-36 md:scroll-mt-28 mb-12 py-16 md:py-20 bg-white rounded-2xl shadow-md">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-black text-slate-800 mb-6 tracking-tight">Como llegar?</h2>
-            <!-- use https://www.embedmymap.com/ -->
-            <div class="rounded-2xl overflow-hidden shadow-xl border-t-4 border-red-600">
-                <iframe title="Mapa con la ubicación de la fonda" class="w-full h-96 block" frameborder="0"
-                    scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=es&amp;q=La Pampilla, Coquimbo&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                </iframe>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer id="contacto" class="bg-blue-900 text-white rounded-2xl overflow-hidden shadow-md">
-        <!-- franja tricolor de la bandera -->
-        <div class="flex h-2">
-            <div class="flex-1 bg-blue-700"></div>
-            <div class="flex-1 bg-white"></div>
-            <div class="flex-1 bg-red-600"></div>
-        </div>
-        <div class="max-w-6xl mx-auto px-6 py-12">
-
-            <!-- PISO 1: marca + enlaces -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-
-                <!-- Columna marca (ocupa 2 de 3 en escritorio) -->
                 <div class="md:col-span-2">
-                    <p class="text-3xl font-bold">
+                    <p class="font-[family-name:'Alfa_Slab_One',serif] text-2xl md:text-3xl">
                         <span class="text-red-500">★</span> Donde el Dieguín
                     </p>
-                    <p class="text-sm text-white/70 mb-6">Ramada y cocinería dieciochera</p>
+                    <p class="mt-1 text-sm text-white/70">Ramada y cocinería dieciochera</p>
 
-                    <p class="mb-4 leading-relaxed">
+                    <p class="mt-6 leading-relaxed text-blue-100/85">
                         Explanada de La Pampilla,<br>
                         Coquimbo, Región de Coquimbo.
                     </p>
 
-                    <p class="mb-6 leading-relaxed">
+                    <p class="mt-4 leading-relaxed text-blue-100/85">
                         Horario de atención:<br>
-                        18, 19 y 20 de septiembre: 12:00 - 02:00 Hrs.
+                        18, 19 y 20 de septiembre: 12:00 a 02:00 hrs.
                     </p>
 
-                    <a href="tel:+56964723815" class="flex items-center gap-3 hover:text-amber-400 transition">
-                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/>
-                        </svg>
+                    <a href="tel:+56964723815"
+                        class="mt-6 inline-flex items-center gap-3 font-semibold transition-colors hover:text-amber-300">
+                        <span aria-hidden="true">📞</span>
                         <span>+56 9 6472 3815</span>
                     </a>
                 </div>
 
-                <!-- Columna: el evento -->
                 <div>
-                    <h2 class="text-2xl font-semibold mb-5 pb-2 border-b-2 border-red-600 inline-block">El Evento</h2>
-                    <ul class="space-y-3 text-white/80">
-                        <li><a href="#info" class="hover:text-white transition">Información</a></li>
-                        <li><a href="#atractivos" class="hover:text-white transition">Atractivos</a></li>
-                        <li><a href="#cronograma" class="hover:text-white transition">Cronograma</a></li>
-                        <li><a href="#mapa" class="hover:text-white transition">Cómo llegar</a></li>
-                        <li><a href="mailto:contacto@dondeeldieguin.cl" class="hover:text-white transition">Contáctanos</a></li>
+                    <h3 class="inline-block border-b-2 border-red-600 pb-2 text-2xl font-semibold">El evento</h3>
+                    <ul class="mt-5 space-y-3 text-white/80">
+                        <li><a href="#info" class="transition-colors hover:text-amber-300">Información</a></li>
+                        <li><a href="#atractivos" class="transition-colors hover:text-amber-300">Atractivos</a></li>
+                        <li><a href="#cronograma" class="transition-colors hover:text-amber-300">Cronograma</a></li>
+                        <li><a href="#mapa" class="transition-colors hover:text-amber-300">Cómo llegar</a></li>
+                        <li><a href="mailto:contacto@dondeeldieguin.cl"
+                                class="transition-colors hover:text-amber-300">Contáctanos</a></li>
                     </ul>
                 </div>
 
+            </div>
+
+            <div
+                class="mt-12 flex flex-col items-center justify-between gap-2 border-t border-white/10 pt-6 text-sm text-white/50 sm:flex-row">
+                <p>Fonda Donde el Dieguín · Coquimbo</p>
+                <p>¡Viva Chile! 🇨🇱 Fiestas Patrias 2026</p>
             </div>
 
         </div>
